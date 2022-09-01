@@ -8,4 +8,4 @@ Click [here](NLP_Overview.pdf) to read a short overview of Natural Language Proc
 
 ### Homework 1- Overview
 
-Click [here](\Homework1\Homework1_KLK170230.py) to see the Python code for this assignment.
+Click [here](Homework1\Homework1_KLK170230.py) to see the Python code for this assignment.
