@@ -47,13 +47,13 @@ def phone_format(phone):
     # check if phone number is in the correct format
     while not re.match(r'^\d{3}[.\s]?\d{3}[-.\s]?\d{4}', phone):
         phone = input(
-            "\nPhone {} is invalid.\nEnter phone number in form ###-###-####. \nPlease enter a valid phone number or "
-            "hit \'x\' to exit the program: ".format(phone))
+            "\nPhone {} is invalid.\nEnter phone number in form ###-###-####. \nPlease enter a valid phone "
+            "number or hit \'x\' to exit the program: ".format(phone))
         if phone == 'x':
             exit()
-    # code if phone number is in the right format
-    if re.match(r'^\d{3}-\d{3}-\d{4}', phone):
-        return str(phone)
+        # code if phone number is in the right format
+        if re.match(r'^\d{3}-\d{3}-\d{4}', phone):
+            return str(phone)
     # strip phone of all whitespaces and extra characters
     str_phone = re.sub(r'\D', '', str(phone))
     str_phone = str_phone[:3] + '-' + str_phone[3:6] + '-' + str_phone[6:]
