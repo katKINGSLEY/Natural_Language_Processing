@@ -26,3 +26,8 @@ Then, the game is created based on the long word tokens and nouns. Instructions 
 To run, put main.py and anat19.txt in the same folder and run: 
     
 	python main.py anat19.txt   
+
+## WordNet Notebook
+
+This [notebook](/WordNet/WordNetNotebook.pdf) explores WordNet and SentiWordNet looking into synsets and and their sematnic relations.
+Similarity is determined using the Wu-Palmer metric and Lesk algorithms, and collocation of bigrams is discussed.
