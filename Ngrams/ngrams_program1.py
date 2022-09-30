@@ -97,11 +97,15 @@ The function takes no arguments and returns no values.
 def main():
     # call get_dictionaries() once on each language file
     eng_uni_dict, eng_bi_dict = get_dictionaries("data/LangId.train.English")
-    # french_uni_dict, french_bi_dict = get_dictionaries("data/LangId.train.French")
-    # italian_uni_dict, italian_bi_dict = get_dictionaries("data/LangId.train.Italian")
+    french_uni_dict, french_bi_dict = get_dictionaries("data/LangId.train.French")
+    italian_uni_dict, italian_bi_dict = get_dictionaries("data/LangId.train.Italian")
     # pickle time
-    pickle.dump(eng_uni_dict, open('uni_english_dict.p', 'wb'))
-    #  pickle.dump(eng_uni_dict, eng_bi_dict, open('english_dicts.p', 'wb'))
+    pickle.dump(eng_uni_dict, open('eng_uni_dict.p', 'wb'))
+    pickle.dump(eng_bi_dict, open('eng_bi_dict.p', 'wb'))
+    pickle.dump(french_uni_dict, open('french_uni_dict.p', 'wb'))
+    pickle.dump(french_bi_dict, open('french_bi_dict.p', 'wb'))
+    pickle.dump(italian_uni_dict, open('italian_uni_dict.p', 'wb'))
+    pickle.dump(italian_bi_dict, open('italian_bi_dict.p', 'wb'))
     return
 
 

@@ -46,4 +46,6 @@ be run by putting the 3 data files in the same folder as the program and typing:
 The model predicts the language of each line using conditional probabilities. Program 2 can be run using:
 	  
 	python ngrams_program2.py
+ 
+The accuracy of our language model made using ngrams was 96.67%
 	
