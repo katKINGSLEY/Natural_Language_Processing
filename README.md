@@ -31,3 +31,19 @@ To run, put main.py and anat19.txt in the same folder and run:
 
 This [notebook](/WordNet/WordNetNotebook.pdf) explores WordNet and SentiWordNet looking into synsets and and their sematnic relations.
 Similarity is determined using the Wu-Palmer metric and Lesk algorithms, and collocation of bigrams is discussed.
+
+## Ngrams
+
+Ngrams are sliding windows of text that look at n words at a time. To read more on ngrams and language models, read the [narrative](/Ngrams/Ngrams_narrative.pdf).
+     
+This program consists of 2 parts. [Program 1](/Ngrams/ngrams_program1.py) which builds the ngram language model using 3 hardcoded data files in
+different languages: English, Italian, and French. It creates pickles of unigram and bigram dictionaries for the 3 langauges as output. It can
+be run by putting the 3 data files in the same folder as the program and typing:
+  
+	python ngrams_program1.py
+   
+[Program 2](/Ngrams/ngrams_program2.py) takes the pickled output of program 1 and uses the model created to test lines of an input file.
+The model predicts the language of each line using conditional probabilities. Program 2 can be run using:
+	  
+	python ngrams_program2.py
+	
