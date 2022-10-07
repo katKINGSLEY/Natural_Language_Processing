@@ -49,7 +49,7 @@ The model predicts the language of each line using conditional probabilities. Pr
  
 The accuracy of our language model made using ngrams was 96.67%
 
-## Webcrawler- Knowledge base.
+## Webcrawler- Knowledge base
 
 Web crawlers are programs that take a starting URL and jump from link to link extracting data. I created a web crawler that 
 searches links for information related to Nessie: the monster of Loch Ness. The starting point for the crawler was the
