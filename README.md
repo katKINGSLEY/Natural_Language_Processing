@@ -62,4 +62,14 @@ of the .py file and type:
  
 This [folder](/web_crawler/) also contains a .db file that contains the Nessie knowledge base!
 
+## Sentence Parsing
+
+[Document](/Parsing/Sentence_parsing.pdf) where three different types of sentence parsing are explored: PSG, Dependency, and 
+SRL. These parsers were used to break up the sentence-
+ 
+On top of spaghetti all covered with cheese, I lost my poor meatball when somebody sneezed.
+ 
+-and break it up based on structure, word relation, and semantics.
+
+
 	
