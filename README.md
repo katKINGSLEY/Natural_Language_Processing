@@ -71,5 +71,12 @@ On top of spaghetti all covered with cheese, I lost my poor meatball when somebo
  
 -and break it up based on structure, word relation, and semantics.
 
+## Author Attribution
+
+Google Colab [notebook](/AuthorAttribution/AuthorAttribution.pdf) where *The Federalist Papers* are used to explore sklearn
+and machine learning models. First, the data is vectorized using TF-IDF vectorization, and then Bernoulli Naive Bayes, logistic
+regression, and neural networks are used to try to predict author based on text. Surprisingly, Bernoulli Naive Bayes (with some
+adjustments) was the best model!
+
 
 	
