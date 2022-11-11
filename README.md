@@ -78,5 +78,10 @@ and machine learning models. First, the data is vectorized using TF-IDF vectoriz
 regression, and neural networks are used to try to predict author based on text. Surprisingly, Bernoulli Naive Bayes (with some
 adjustments) was the best model!
 
+## 2021 ACL Paper Summary
+
+This [paper](/ACL/i_like_fish.pdf) summarizes the paper written for 2021 ACL conference titled "I like fish, especially dolphins: 
+Addressing Contradictions in Dialogue Modeling". The paper talks about a new DECODE task written by interns and mentors
+with the Facebook AI Research team. 
 
 	
