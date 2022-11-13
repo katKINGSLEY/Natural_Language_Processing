@@ -15,7 +15,7 @@ parses user input and then queries the results from within this knowledge base u
 NLPete’s primary focus is the discussion of ideas related to understanding textual meaning, he also handles conversation outside of 
 his domain quite well.   Read more [here](chatbot/Chatbot_paper_Kingsley_Yu.pdf).
  
-Code for this project can be found [here](/chatbot/NLPete/)
+Code for this project can be found [here](/Natural_Language_Processing/chatbot/NLPete/)
 
 Please put all files in the same folder and run main.py from the command line.
 
@@ -73,7 +73,7 @@ of the .py file and type:
  
 	python main.py
  
-This [folder](/web_crawler/) also contains a .db file that contains the Nessie knowledge base!
+This [folder](/Natural_Language_Processing/web_crawler/) also contains a .db file that contains the Nessie knowledge base!
 
 ## Sentence Parsing
 
