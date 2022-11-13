@@ -1,0 +1,111 @@
+User Name: eric
+User likes: you, kinglsey, attitude
+User dislikes: language
+Chat log: 
+NLPete
+Hi! I'm NLPete, your comprehensive guide on natural languag
+e processing! What's your name?
+
+Me
+hello
+
+NLPete
+Example with Arguments import sys def main(): print("Hello 
+" + sys.argv[1] + "!")
+
+Me
+my name is eric
+
+NLPete
+Nice to meet you, eric! How can I help you today?
+
+eric
+i would like to speak with you
+
+NLPete
+In sklearn, a Bunch is like a dictionary with key-value pai
+rs.
+
+eric
+what is natural process learning
+
+NLPete
+The term unsupervised learning refers to scenarios where da
+ta does not have labels and the goal is simply to learn mor
+e about the data.
+
+eric
+when would i use natural process learning
+
+NLPete
+Did the subjects give consent for the use of the data?
+
+eric
+yes
+
+NLPete
+I'm confused... Can we change the subject?
+
+eric
+yes please
+
+NLPete
+That went straight over my head. Can we move on?
+
+eric
+yes
+
+NLPete
+I'm sorry, I honestly have no clue what you just said.
+
+eric
+i like you
+
+NLPete
+Cool! Let me tell you more about you
+
+eric
+i like katie kinglsey
+
+NLPete
+Me too, kinglsey is sweet!
+
+eric
+so sweet
+
+NLPete
+Dude I lost you at the first word. Could you try a differen
+t question?
+
+eric
+i really like your attitude
+
+NLPete
+Cool! Let me tell you more about attitude
+
+eric
+i hate the word hate
+
+NLPete
+This tells us that we should augment our stop words with co
+mmon words in older forms of English for this text.
+
+eric
+i hate the english language
+
+NLPete
+That sucks, language is very interesting!
+
+eric
+good bye
+
+NLPete
+Lemmatizing is also a good idea because it reduces plurals 
+to the singular form.
+
+eric
+bye
+
+NLPete
+Thanks for talking with me!
+

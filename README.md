@@ -6,6 +6,19 @@ SE4395 NLP Course- Taken Fall 2022
 Click [here](/Overviews/NLP_Overview.pdf) to read a short overview of Natural Language Processing. 
 
 
+## NLPete: Natural Language Processing Chatbot
+
+NLPete is a natural language processing chatbot implemented in Python whose main goal is to successfully answer a user’s questions
+on natural language processing topics. His two main components are a dictionary knowledge base and chat logic flow. The knowledge 
+base is derived from Dr. Karen Mazidi’s book, Exploring NLP with Python: Building Understand Through Code, and NLPete’s chat logic 
+parses user input and then queries the results from within this knowledge base using natural langauge processing techniques. While 
+NLPete’s primary focus is the discussion of ideas related to understanding textual meaning, he also handles conversation outside of 
+his domain quite well.   Read more [here](chatbot/Chatbot_paper_Kingsley_Yu.pdf).
+ 
+Code for this project can be found [here](/chatbot/NLPete)
+
+Please put all files in the same folder and run main.py
+
 ## Homework 1- Overview
 
 Click [here](/Homework1/Homework1_KLK170230.py) to see the Python code for this assignment.
@@ -83,5 +96,6 @@ adjustments) was the best model!
 This [paper](/ACL/i_like_fish.pdf) summarizes the paper written for 2021 ACL conference titled "I like fish, especially dolphins: 
 Addressing Contradictions in Dialogue Modeling". The paper talks about a new DECODE task written by interns and mentors
 with the Facebook AI Research team. 
+
 
 	
