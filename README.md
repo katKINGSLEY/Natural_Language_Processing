@@ -5,6 +5,10 @@ SE4395 NLP Course- Taken Fall 2022
 
 Click [here](/Overviews/NLP_Overview.pdf) to read a short overview of Natural Language Processing. 
 
+## Text Classification
+
+This [notebook](/text_classification/text_classify.pdf) takes a look at NLP models that classify textual data. A Kaggle dataset containing
+almost 45,000 movie scripts and their genres was used. The baseline model is a sequential model which gets over 95% accuracy! 
 
 ## NLPete: Natural Language Processing Chatbot
 
